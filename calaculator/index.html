@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculate Made By M Ansari</title>
+    <link rel="icon" type="image/x-icon" href="./icon.png">
+</head>
+
+<body>
+    <div>
+
+        <div class="container">
+
+
+            <div class="cal">
+                <h1>CALCULATOR</h1>
+                <hr>
+            </div>
+
+            <div class="a1">
+                <form>
+                    <div class="a2">
+                        <input type="text" name="a2" class="a09"
+                            style="box-shadow: none; background-color: transparent; font-size: 35px;">
+                    </div>
+                    <hr>
+                    <div>
+                        <input type="button" value="AC" onclick="a2.value =' ' " class="a4">
+
+                        <input type="button" value="DE" onclick="a2.value = a2.value.toString().slice(0, -1)"
+                            class="a4">
+                        <input type="button" value="." onclick="a2.value +='.' " class="a4">
+                        <input type="button" value="÷" onclick="a2.value +='/' " class="a4" style="font-size: 35px;">
+                    </div>
+                    <div>
+                        <input type="button" value="7" onclick="a2.value +='7' " class="a4">
+                        <input type="button" value="8" onclick="a2.value +='8' " class="a4">
+                        <input type="button" value="9" onclick="a2.value +='9' " class="a4">
+                        <input type="button" value="X" onclick="a2.value +='*' " class="a4">
+                    </div>
+                    <div>
+                        <input type="button" value="4" onclick="a2.value +='4' " class="a4">
+                        <input type="button" value="5" onclick="a2.value +='5' " class="a4">
+                        <input type="button" value="6" onclick="a2.value +='6' " class="a4">
+                        <input type="button" value="-" onclick="a2.value +='-' " class="a4">
+                    </div>
+                    <div>
+                        <input type="button" value="1" onclick="a2.value +='1' " class="a4">
+                        <input type="button" value="2" onclick="a2.value +='2' " class="a4">
+                        <input type="button" value="3" onclick="a2.value +='3' " class="a4">
+                        <input type="button" value="+" onclick="a2.value +='+' " class="a4">
+                    </div>
+                    <div>
+                        <input type="button" value="00" onclick="a2.value +='00' " class="a4">
+                        <input type="button" value="0" onclick="a2.value +='0' " class="a4">
+                        <input type="button" value="=" onclick="a2.value = eval(a2.value) " class="a3 , a4">
+
+                    </div>
+                </form>
+            </div>
+            <button type="button" class="b3">3</button>
+            <button type="button" class="b6">+</button>
+            <button type="button" class="b4">%</button>
+            <button type="button" class="b5">/</button>
+            <button type="button" class="b7">9</button>
+            <button type="button" class="b8">=</button>
+
+
+        </div>
+    </div>
+</body>
+
+</html>
